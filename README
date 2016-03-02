@@ -1,0 +1,22 @@
+Copyright (C) 2016 Tom Tijerina
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+--------------------------------------------------------------------------------
+
+This program asks for your user, domain, and password to enable auto logon after backing up the registry. It then clicks through all the windows updates until there is no more button or it gets an error. It will reboot and rerun as required. When its finished, you get a message stating the outcome. It thinks there are no more updates, or it failed and rebooting didn't work.
+
+Hopefully you find this helpful! This was one of those things that I wanted to write a long time ago but didn't know how, and then when I did I didn't have a need for it. Recently was reminded of it and decide to give it a shot. This was written pretty quickly so if you find bugs feel free to fix 'em.
+
+
+If this isn't working or it is asking you for permission constantly its worth noting I used AutoIt Script Editor. to compile it. Not the light version that is included in the package. You could fix this by adding #requireadmin. I choose not to.
